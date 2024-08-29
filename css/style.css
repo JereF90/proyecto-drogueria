@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.banner_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.productos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.863);
+  border: 2px solid white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.863);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+p,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+/* navbar */
+.navbar .logo:hover {
+  font-size: 50px;
+}
+.navbar .nav-link:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+/* fin navbar */
+/* footer */
+footer {
+  width: 100%;
+  background-color: black;
+}
+footer .logo-footer:hover {
+  font-size: 40px;
+}
+footer .footer-link:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+/* fin footer */
+/* menu index */
+.menu-container-index {
+  width: 100%;
+  height: 650px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-rows: repeat(6, 150px);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.item1-menu {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border: 3px white solid;
+  object-fit: cover;
+}
+.item1-menu .img-menu-index {
+  width: 100%;
+  height: 100%;
+}
+
+.item2-menu {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item2-menu .titulo-index {
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.item2-menu .parrafo-index {
+  text-align: justify;
+  color: white;
+}
+
+.item3-menu {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.item3-menu .card-item3 {
+  width: 100%;
+  height: 100%;
+}
+.item3-menu .card-item3 .img {
+  width: 90%;
+  height: 80%;
+}
+.item3-menu .card-item3:hover {
+  transition: 0.5s;
+  width: 300px;
+  height: 300px;
+}
+
+.item4-menu {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.item4-menu .card-item4 {
+  width: 100%;
+  height: 100%;
+}
+.item4-menu .card-item4 .img {
+  width: 90%;
+  height: 80%;
+}
+.item4-menu .card-item4:hover {
+  transition: 0.5s;
+  width: 300px;
+  height: 300px;
+}
+
+/* fin menu index */
+/* menu empresa */
+.menu-container-emp {
+  width: 100%;
+  height: 1000px;
+}
+.menu-container-emp .grid-container-emp {
+  margin: 10px;
+  display: grid;
+  grid-template-rows: repeat(6, 150px);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+}
+.item-1 .img-grid {
+  width: 100%;
+  height: 100%;
+}
+
+.item-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  color: white;
+}
+
+.item-3 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  color: white;
+}
+
+.item-4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  color: white;
+}
+
+.item-5 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  border: 2px solid white;
+}
+.item-5 .img-grid-5 {
+  width: 100%;
+  height: 100%;
+}
+
+.item-6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  color: white;
+}
+
+/* fin menu empresa */
+/* menu productos (enfermeria/cirugia/varios) */
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.banner_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.banner_1 div {
+  width: 30%;
+  position: relative;
+}
+.banner_1 div h2 {
+  font-size: 250px;
+  color: white;
+}
+.banner_1 div p {
+  font-size: 25px;
+  color: white;
+}
+.banner_1 img {
+  width: 60%;
+  height: 800px;
+}
+
+.productos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.863);
+  border: 2px solid white;
+}
+.productos img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.productos div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.productos div a {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.863);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+.productos div a:hover {
+  font-size: 25px;
+  transition: 0.7s;
+  border-radius: 10px;
+}
+
+/* fin menu productos (enfermeria/cirugia/varios) */
+/* mediaqueries index */
+@media only screen and (max-width: 498px) {
+  .menu-container-index {
+    height: 1100px;
+  }
+  .item1-menu {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .item2-menu {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 10px;
+  }
+  .item3-menu {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .item3-menu .card-text {
+    color: white;
+    font-size: 18px;
+  }
+  .item4-menu {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .item4-menu .card-text {
+    color: white;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 499px) and (max-width: 768px) {
+  .menu-container-index {
+    height: 800px;
+  }
+  .item1-menu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .item2-menu {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 16px;
+  }
+  .item3-menu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .item4-menu {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+}
+/* fin mediaqueries index */
+/*mediaqueries empresa */
+@media only screen and (max-width: 498px) {
+  .menu-container-emp {
+    height: 1100px;
+  }
+  .item-1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .item-2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-size: 10px;
+  }
+  .item-3 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 10px;
+  }
+  .item-4 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 10px;
+  }
+  .item-5 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .item-6 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 499px) and (max-width: 768px) {
+  .menu-container-emp {
+    height: 1200px;
+  }
+  .item-1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .item-2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 15px;
+  }
+  .item-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 15px;
+  }
+  .item-4 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .item-5 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .item-6 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 15px;
+  }
+}
+/* fin mediaqueries empresa */
+/*mediaqueries productos (enfermeria/cirugia/varios)*/
+@media (max-width: 768px) {
+  .banner_1 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    padding: 0;
+  }
+  .banner_1 div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.431372549);
+  }
+  .banner_1 div h2 {
+    font-size: 96px;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner_1 div p {
+    font-size: 20px;
+  }
+  .banner_1 img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* fin mediaqueries productos (enfermeria/cirugia/varios)*/
+
+/*# sourceMappingURL=style.css.map */

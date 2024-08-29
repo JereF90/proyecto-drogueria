@@ -1,0 +1,213 @@
+/* mediaqueries index */
+
+@media only screen and (max-width: 498px) {
+    .menu-container-index {
+        height: 1100px;
+    }
+    .item1-menu {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 2;
+  }
+    .item2-menu {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      font-size: 10px;
+  }  
+  .item3-menu {
+   grid-column-start: 1;
+   grid-column-end: 6;
+   grid-row-start: 3;
+   grid-row-end: 4;
+   
+    .card-text {
+         color: white;
+         font-size: 18px;
+       }  
+   }
+   .item4-menu {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      .card-text {
+        color: white;
+        font-size: 18px;
+      } 
+   }
+
+ }
+ 
+ @media only screen and (min-width: 499px) and (max-width: 768px) {
+    .menu-container-index {
+        height: 800px;
+    }
+    .item1-menu {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+     .item2-menu {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        font-size: 16px;
+    }
+      .item3-menu {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+      .item4-menu {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+ }
+ 
+/* fin mediaqueries index */
+
+
+
+ /*mediaqueries empresa */
+
+ @media only screen and (max-width: 498px) {
+    .menu-container-emp {
+        height: 1100px;
+    }
+    .item-1 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 2;
+     }
+     .item-2 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      font-size: 10px;
+     }
+     .item-3 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      font-size: 10px;
+     }
+     .item-4 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      font-size: 10px;
+     }
+     .item-5 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 4;
+      grid-row-end: 5;
+     }
+     .item-6 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 6;
+      grid-row-end: 7;
+      font-size: 10px;
+     }
+ }
+
+
+ @media only screen and (min-width: 499px) and (max-width: 768px) {
+    .menu-container-emp {
+        height: 1200px;
+    }
+    .item-1{
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    } 
+    .item-2{
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      font-size: 15px;
+    }
+     .item-3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 15px;
+    } 
+     .item-4{
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 5;
+      grid-row-end: 6;
+    }
+    .item-5{
+      grid-column-start: 3;
+      grid-column-end: 6;
+      grid-row-start: 3;
+      grid-row-end: 5;
+    }
+    .item-6{
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 6;
+      grid-row-end: 7;
+      font-size: 15px;
+    } 
+
+ }
+  /* fin mediaqueries empresa */
+
+ 
+  /*mediaqueries productos (enfermeria/cirugia/varios)*/
+
+ @media (max-width: 768px) {
+    .banner_1 {
+        position: relative;
+        height: 500px;
+        width: 100%;
+        padding: 0;
+       div {
+        width: 100%;
+        height: 100%; 
+        position: absolute;  
+        top: 0;
+        left: 0;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0000006e;
+         h2 {
+         font-size: 96px;
+         justify-content: center;
+         text-align: center;
+         }
+         p {
+            font-size: 20px;
+        }
+       }
+      img {
+         width: 100%;
+         height: 100%;
+       }  
+
+      }   
+ }
+ 
+ /* fin mediaqueries productos (enfermeria/cirugia/varios)*/
+ 

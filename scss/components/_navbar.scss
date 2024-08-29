@@ -1,0 +1,17 @@
+ /* navbar */
+ .navbar {
+    .logo {
+        &:hover {
+         font-size: 50px;
+       }
+    }
+    .nav-link {
+       &:hover {
+          text-decoration: underline;
+          font-size: 20px;
+          transition: 0.5s;
+        }
+     }
+ }
+
+ /* fin navbar */
