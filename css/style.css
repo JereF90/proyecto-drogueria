@@ -123,11 +123,6 @@ footer .footer-link:hover {
   width: 90%;
   height: 80%;
 }
-.item3-menu .card-item3:hover {
-  transition: 0.5s;
-  width: 300px;
-  height: 300px;
-}
 
 .item4-menu {
   grid-column-start: 4;
@@ -142,11 +137,6 @@ footer .footer-link:hover {
 .item4-menu .card-item4 .img {
   width: 90%;
   height: 80%;
-}
-.item4-menu .card-item4:hover {
-  transition: 0.5s;
-  width: 300px;
-  height: 300px;
 }
 
 /* fin menu index */
